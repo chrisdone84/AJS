@@ -10,11 +10,15 @@ const Projects = () => {
           <h3 className="text-2xl font-semibold">Morris Meadows</h3>
           <p className="text-lg">Location: Netherthor, Liverpool</p>
           <p className="text-lg">Sector: New Build</p>
-          <a href="#" className="mt-2 inline-block bg-primary text-secondary py-2 px-4 rounded hover:bg-secondary hover:text-primary">View Project</a>
+          <a
+            href="#"
+            className="mt-2 inline-block bg-primary text-secondary py-2 px-4 rounded hover:bg-secondary hover:text-primary">
+            View Project
+          </a>
         </div>
       </div>
     </section>
   );
-}
+};
 
 export default Projects;

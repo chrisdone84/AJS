@@ -6,13 +6,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const ImageCarousel = () => {
   return (
     <div className="relative w-full h-80">
-      <Carousel
-        showThumbs={false}
-        autoPlay
-        infiniteLoop
-        showStatus={false}
-        className="carousel-container"
-      >
+      <Carousel showThumbs={false} autoPlay infiniteLoop showStatus={false} className="carousel-container">
         <div className="h-80">
           <img
             src="/images/refurbishment1.jpg"
@@ -50,7 +44,16 @@ const ImageCarousel = () => {
         </div>
       </Carousel>
       <div className="absolute inset-0 flex flex-col items-start justify-center p-8">
-      <img src="/images/ajslogo.jpg" alt="AJS Scaffolding" className="h-20 w-auto bg-black bg-opacity-50 px-4 py-2 rounded" />        <Link to="/contact-us" className="mt-4 bg-primary text-secondary py-2 px-4 rounded hover:bg-secondary hover:text-primary">Contact Us</Link>
+        <img
+          src="/images/ajslogo.jpg"
+          alt="AJS Scaffolding"
+          className="h-20 w-auto bg-black bg-opacity-50 px-4 py-2 rounded"
+        />{' '}
+        <Link
+          to="/contact-us"
+          className="mt-4 bg-primary text-secondary py-2 px-4 rounded hover:bg-secondary hover:text-primary">
+          Contact Us
+        </Link>
       </div>
     </div>
   );

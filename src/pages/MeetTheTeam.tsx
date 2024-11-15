@@ -1,50 +1,81 @@
-import React from 'react';
+const leadershipTeam = [
+  {
+    name: 'Tony Grimes',
+    position: 'Operations Director',
+    bio: 'Tony has been instrumental in guiding AJS Scaffolding’s growth since its inception. His focus on operational excellence ensures that we consistently deliver top-quality services to our clients. He is further supported by our dedicated Managers and Chargehands.',
+    linkedin: ' https://www.linkedin.com/in/tony-grimes-1a6b1b300/',
+  },
+  {
+    name: 'James Williams',
+    position: 'Commercial & Technical Director',
+    linkedin: 'https://www.linkedin.com/in/james-williams-419b51b5/',
+    bio: 'James is responsible for overseeing our commercial operations, ensuring projects are delivered on budget and on time. His keen understanding of the industry helps AJS Scaffolding maintain its competitive edge. James has extensive experience in scaffolding and engineering.',
+  },
+  {
+    name: 'Dan McGregor',
+    position: 'Director of Business Development',
+    linkedin: 'https://www.linkedin.com/in/dan-mcgregor-fcmi-7b669082/',
+    bio: 'Dan brings a wealth of experience in driving business growth, and successfully grew another scaffolding business prior to joining AJS. His background is within construction and maintenance, and he holds an MBA. His focus is built upon client relationships and long-term strategic partnerships, bringing innovative flare and continuous development to the business.',
+  },
+];
 
-const teamMembers = [
+const otherSeniorMembers = [
   {
-    name: 'John Doe',
-    position: 'CEO',
-    image: '/images/male1.webp',
-    bio: 'John has over 20 years of experience in the scaffolding industry...',
+    name: 'Charlotte Cockayne',
+    position: 'Key Account Manager',
   },
   {
-    name: 'Jane Smith',
-    position: 'CFO',
-    image: '/images/female1.webp',
-    bio: 'Jane is responsible for the financial operations and strategy...',
+    name: 'Kayleigh Knott',
+    position: 'Office Manager',
   },
   {
-    name: 'Alice Johnson',
-    position: 'Project Manager',
-    image: '/images/female2.webp ',
-    bio: 'Alice oversees all project management activities...',
+    name: 'Ross Rimmer',
+    position: 'Commercial Manager',
   },
-  // Add more team members as needed
 ];
 
 const MeetTheTeam = () => {
   return (
     <div className="min-h-screen bg-background text-textSecondary">
-      <header className="bg-cover bg-center h-64 text-textPrimary flex items-center justify-center" style={{ backgroundImage: 'url(/path-to-header-image.jpg)' }}>
-        <h1 className="text-4xl font-bold">Meet the Team</h1>
+      <header
+        className="bg-cover bg-center h-64 text-textPrimary flex items-center justify-center"
+        style={{ backgroundImage: 'url(/path-to-header-image.jpg)' }}>
+        <h1 className="text-4xl font-bold text-secondary">Leadership Team</h1>
       </header>
-      <main className="container mx-auto p-8">
-        <h2 className="text-3xl font-bold mb-8">Our Team</h2>
-        <div className="grid md:grid-cols-3 gap-6">
-          {teamMembers.map((member, index) => (
-            <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img src={member.image} alt={member.name} className="w-full h-48 object-cover" />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
-                <p className="text-primary mb-4">{member.position}</p>
-                <p>{member.bio}</p>
-              </div>
+      <div className="leadership-team mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+          {leadershipTeam.map((member, index) => (
+            <div key={index} className="team-member p-4 bg-white rounded shadow-lg">
+              <h2 className="text-2xl font-semibold text-primary">{member.name}</h2>
+              <p className="text-lg text-secondary">{member.position}</p>
+              <p className="text-gray-600">{member.bio}</p>
+              <a
+                href={member.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-blue-500 hover:underline">
+                LinkedIn
+              </a>
             </div>
           ))}
         </div>
-      </main>
+      </div>
+      <div className="other-senior-members mt-8">
+        <h2 className="text-3xl font-bold text-center mb-4 text-secondary">Senior Members</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+          {otherSeniorMembers.map((member, index) => (
+            <div key={index} className="team-member p-4 bg-white rounded shadow-lg">
+              <h2 className="text-2xl font-semibold text-primary">{member.name}</h2>
+              <p className="text-lg text-secondary">{member.position}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="additional-info mt-8 text-center">
+        <p className="text-lg text-gray-700">As well as our site Supervisors, and specialist consultants.</p>
+      </div>
     </div>
   );
-}
+};
 
 export default MeetTheTeam;

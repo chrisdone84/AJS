@@ -7,19 +7,35 @@ const Footer = () => {
         {/* Contact Information */}
         <div>
           <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-          <p>Beatty Road, Liverpool, L13 2BX</p>
-          <p>Phone: 07490378526</p>
-          <p>Phone: 07366306395</p>
+          <p>Cheapside, Liverpool, England, L2 2DY</p>
+          <p>Charnock Road, Liverpool, L9 6AW</p>
+          <p>Phone: 0330 133 1506</p>
           <p>Email: info@ajsscaffoldnw.co.uk</p>
         </div>
         {/* Navigation Links */}
         <div>
           <h3 className="text-xl font-bold mb-4">Quick Links</h3>
           <ul>
-            <li><a href="#services" className="hover:text-primary">Services</a></li>
-            <li><a href="#news" className="hover:text-primary">News</a></li>
-            <li><a href="/meet-the-team" className="hover:text-primary">Meet the Team</a></li>
-            <li><a href="/contact-us" className="hover:text-primary">Contact Us</a></li>
+            <li>
+              <a href="#services" className="hover:text-primary">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="#news" className="hover:text-primary">
+                News
+              </a>
+            </li>
+            <li>
+              <a href="/meet-the-team" className="hover:text-primary">
+                Meet the Team
+              </a>
+            </li>
+            <li>
+              <a href="/contact-us" className="hover:text-primary">
+                Contact Us
+              </a>
+            </li>
           </ul>
         </div>
         {/* Certifications */}
@@ -33,11 +49,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-primary text-center text-sm py-4 mt-8">
-      <p className="text-secondary">&copy; 2024 AJS Scaffolding NW Limited. All rights reserved.</p>
-       
+        <p className="text-secondary">&copy; 2024 AJS Scaffolding NW Limited. All rights reserved.</p>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

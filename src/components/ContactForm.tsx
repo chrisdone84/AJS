@@ -8,10 +8,12 @@ const ContactForm = () => {
         <input type="text" placeholder="Your Name" className="p-2 rounded" />
         <input type="email" placeholder="Your Email" className="p-2 rounded" />
         <textarea placeholder="Your Message" className="p-2 rounded"></textarea>
-        <button type="submit" className="bg-white text-teal-800 p-2 rounded">Send</button>
+        <button type="submit" className="bg-white text-teal-800 p-2 rounded">
+          Send
+        </button>
       </form>
     </section>
   );
-}
+};
 
 export default ContactForm;
