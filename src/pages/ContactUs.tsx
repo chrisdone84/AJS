@@ -118,8 +118,8 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="mt-4 text-center">
-            <p>Phone: 07490378526</p>
-            <p>Email: info@ajsscaffoldnw.co.uk</p>
+            <p>Phone: 0330 133 1506</p>
+            <p>Email: info@ajsscaffoldnw.com</p>
           </div>
         </section>
       </main>

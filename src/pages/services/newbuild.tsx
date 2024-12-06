@@ -13,7 +13,37 @@ const NewBuild = () => {
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <img
-            src="/images/refurbishment7.jpg"
+            src="/images/new1.jpeg"
+            alt="Description of photo 1"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/new2.jpeg"
+            alt="Description of photo 1"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/new3.jpg"
+            alt="Description of photo 1"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/new4.jpg"
+            alt="Description of photo 1"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/new5.jpeg"
+            alt="Description of photo 1"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/new6.jpeg"
+            alt="Description of photo 1"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/new7.jpeg"
             alt="Description of photo 1"
             className="w-full h-48 object-cover rounded-lg shadow-md"
           />

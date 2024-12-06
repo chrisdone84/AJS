@@ -71,9 +71,6 @@ const MeetTheTeam = () => {
           ))}
         </div>
       </div>
-      <div className="additional-info mt-8 text-center">
-        <p className="text-lg text-gray-700">As well as our site Supervisors, and specialist consultants.</p>
-      </div>
     </div>
   );
 };

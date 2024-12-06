@@ -16,7 +16,7 @@ const ImageCarousel = () => {
         </div>
         <div className="h-80">
           <img
-            src="/images/social2.jpg"
+            src="/images/cara2.jpeg"
             alt="Carousel Image 2"
             className="w-full h-full object-cover rounded-lg shadow-lg"
           />
@@ -30,14 +30,14 @@ const ImageCarousel = () => {
         </div>
         <div className="h-80">
           <img
-            src="/images/refurbishment10.jpg"
+            src="/images/cara4.jpeg"
             alt="Carousel Image 3"
             className="w-full h-full object-cover rounded-lg shadow-lg"
           />
         </div>
         <div className="h-80">
           <img
-            src="/images/social4.jpg"
+            src="/images/cara5.jpeg"
             alt="Carousel Image 3"
             className="w-full h-full object-cover rounded-lg shadow-lg"
           />
