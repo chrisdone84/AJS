@@ -10,7 +10,7 @@ const Footer = () => {
           <p>Cheapside, Liverpool, England, L2 2DY</p>
           <p>Charnock Road, Liverpool, L9 6AW</p>
           <p>Phone: 0330 133 1506</p>
-          <p>Email: info@ajsscaffoldnw.co.uk</p>
+          <p>Email: info@ajsscaffoldnw.com</p>
         </div>
         {/* Navigation Links */}
         <div>
@@ -45,6 +45,7 @@ const Footer = () => {
             <img src="/chaslogo.webp" alt="Certification 1" className="h-16" />
             <img src="/Constructionline-Gold-Logo.png" alt="Certification 2" className="h-16" />
             <img src="/citb.png" alt="Certification 3" className="h-16" />
+            <img src="/images/scaffoldlogo.png" alt="Certification 4" className="h-16" />
           </div>
         </div>
       </div>

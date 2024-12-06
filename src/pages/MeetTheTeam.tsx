@@ -1,3 +1,5 @@
+import { FaLinkedin } from 'react-icons/fa';
+
 const leadershipTeam = [
   {
     name: 'Tony Grimes',
@@ -54,7 +56,7 @@ const MeetTheTeam = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-blue-500 hover:underline">
-                LinkedIn
+                <FaLinkedin className="text-xl mr-2" /> {/* LinkedIn icon */}
               </a>
             </div>
           ))}
@@ -70,9 +72,6 @@ const MeetTheTeam = () => {
             </div>
           ))}
         </div>
-      </div>
-      <div className="additional-info mt-8 text-center">
-        <p className="text-lg text-gray-700">As well as our site Supervisors, and specialist consultants.</p>
       </div>
     </div>
   );

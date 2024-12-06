@@ -39,14 +39,14 @@ const Navbar = () => {
           className="hover:text-primary hover:underline transition duration-300 cursor-pointer">
           News
         </RouterLink>
-        <RouterLink to="/contact-us" className="hover:text-primary hover:underline transition duration-300">
-          Contact Us
+        <RouterLink to="/about" className="hover:text-primary hover:underline transition duration-300">
+          About Us
         </RouterLink>
         <RouterLink to="/meet-the-team" className="hover:text-primary hover:underline transition duration-300">
           Meet the Team
         </RouterLink>
-        <RouterLink to="/about" className="hover:text-primary hover:underline transition duration-300">
-          About Us
+        <RouterLink to="/contact-us" className="hover:text-primary hover:underline transition duration-300">
+          Contact Us
         </RouterLink>
       </div>
       <div className="md:hidden">
@@ -79,14 +79,14 @@ const Navbar = () => {
             className="hover:text-primary hover:underline transition duration-300 cursor-pointer">
             News
           </RouterLink>
-          <RouterLink to="/contact-us" className="hover:text-primary hover:underline transition duration-300">
-            Contact Us
+          <RouterLink to="/about" className="hover:text-primary hover:underline transition duration-300">
+            About Us
           </RouterLink>
           <RouterLink to="/meet-the-team" className="hover:text-primary hover:underline transition duration-300">
             Meet the Team
           </RouterLink>
-          <RouterLink to="/about" className="hover:text-primary hover:underline transition duration-300">
-            About Us
+          <RouterLink to="/contact-us" className="hover:text-primary hover:underline transition duration-300">
+            Contact Us
           </RouterLink>
         </div>
       )}
