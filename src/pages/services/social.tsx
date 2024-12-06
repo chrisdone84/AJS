@@ -33,6 +33,31 @@ const SocialHousing = () => {
             alt="Description of photo 4"
             className="w-full h-48 object-cover rounded-lg shadow-md"
           />
+          <img
+            src="/images/social5.jpeg"
+            alt="Description of photo 1"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/social6.jpeg"
+            alt="Description of photo 2"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/social7.jpeg"
+            alt="Description of photo 3"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/social8.png"
+            alt="Description of photo 4"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/social9.png"
+            alt="Description of photo 4"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
         </div>
       </section>
     </div>

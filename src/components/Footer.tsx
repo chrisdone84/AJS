@@ -45,6 +45,7 @@ const Footer = () => {
             <img src="/chaslogo.webp" alt="Certification 1" className="h-16" />
             <img src="/Constructionline-Gold-Logo.png" alt="Certification 2" className="h-16" />
             <img src="/citb.png" alt="Certification 3" className="h-16" />
+            <img src="/images/scaffoldlogo.png" alt="Certification 4" className="h-16" />
           </div>
         </div>
       </div>

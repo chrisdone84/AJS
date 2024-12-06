@@ -27,6 +27,56 @@ const Industrial = () => {
             alt="Description of photo 2"
             className="w-full h-48 object-cover rounded-lg shadow-md"
           />
+          <img
+            src="/images/refurbishment10.jpg"
+            alt="Description of photo 1"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/refurbishment11.jpg"
+            alt="Description of photo 2"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/refurbishment12.jpeg"
+            alt="Description of photo 1"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/refurbishment13.jpeg"
+            alt="Description of photo 2"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/refurbishment14.jpeg"
+            alt="Description of photo 1"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/refurbishment15.jpeg"
+            alt="Description of photo 2"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/refurbishment16.jpeg"
+            alt="Description of photo 1"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/refurbishment17.jpeg"
+            alt="Description of photo 2"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/refurbishment18.jpeg"
+            alt="Description of photo 1"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/refurbishment19.jpeg"
+            alt="Description of photo 2"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
         </div>
       </section>
     </div>

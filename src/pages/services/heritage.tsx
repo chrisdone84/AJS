@@ -33,6 +33,16 @@ const Heritage = () => {
             alt="Description of photo 4"
             className="w-full h-48 object-cover rounded-lg shadow-md"
           />
+          <img
+            src="/images/heritage5.jpg"
+            alt="Description of photo 4"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src="/images/heritage6.jpg"
+            alt="Description of photo 4"
+            className="w-full h-48 object-cover rounded-lg shadow-md"
+          />
         </div>
       </section>
     </div>
